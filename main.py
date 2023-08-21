@@ -4,9 +4,9 @@ from colorama import Fore
 
 def opcionesMenu():
     print(Fore.CYAN +"\n    ----------------- MENÚ ----------------- ")
-    print(Fore.CYAN +"   |     1. Cargar archivo                  |")
+    print(Fore.CYAN +"   |     1. Cargar archivo XML              |")
     print(Fore.CYAN +"   |     2. Procesar archivo                |")
-    print(Fore.CYAN +"   |     3. Escribir archivo salida         |")
+    print(Fore.CYAN +"   |     3. Escribir archivo salida XML     |")
     print(Fore.CYAN +"   |     4. Mostrar datos del estudiante    |")
     print(Fore.CYAN +"   |     5. Generar gráfica                 |")
     print(Fore.CYAN +"   |     6. Inicializar sistema             |")
