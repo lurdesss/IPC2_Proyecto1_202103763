@@ -5,8 +5,8 @@ class Tiempo():
     def __init__(self, tiempo, amplitud):
         self.tiempo = tiempo
         self.amplitud = amplitud
-        self.lisatAmplitudes = ListaSimple()
-        self.llenarListadoAmplitudes()
+        self.listaAmplitudes = ListaSimple()
+        self.llenarListaAmplitudes()
         self.procesarPatron()
     
     def getTiempo(self):
@@ -16,7 +16,18 @@ class Tiempo():
         return self.amplitud
     
     def llenarListaAmplitudes(self):
-        pass
+        for i in range(1, int(self.amplitud)+1):
+            temporalAmplitud = Amplitud(i)
+            #lista de amplitudes
+            self.listaAmplitudes.agregarFinal(temporalAmplitud)
+        return self.listaAmplitudes
+
+    def imprimir(self): #prueba    -------------------------------------------------
+        print("_____Amplitudes para tiempo:", self.getTiempo() ,"_____")
+        objAmplitud = self.listaAmplitudes.getInicial()
+        while objAmplitud != None:
+            print(objAmplitud.getDato().getAmplitud())
+            objAmplitud = objAmplitud.getSiguiente()
 
     def procesarPatron(self):
         pass

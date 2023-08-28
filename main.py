@@ -1,6 +1,14 @@
 import xml.etree.ElementTree as ET
 from colorama import Fore
+from LecturaXML import LecturaXML
+from Tiempo import Tiempo
+from Senal import Senal
 
+def topAndBottom():
+    print(Fore.WHITE +"-")
+
+def lateral():
+    print(Fore.WHITE +"|")
 
 def opcionesMenu():
     print(Fore.CYAN +"\n    ----------------- MENÚ ----------------- ")
@@ -19,10 +27,13 @@ def menu():
 
     while opcion != "7":
         opcionesMenu()
-        opcion = input("\nSeleccione una opcion del menú: ")
+        opcion = input(Fore.CYAN +"\nSeleccione una opcion del menú: ")
 
-        if opcion == "1":
+        if opcion == "1": # Cargar archivo .xml
             try:
+                nombreArchivo = input(Fore.YELLOW + "\n Ingrese el nombre del archivo: ")
+                ruta = nombreArchivo +".xml"
+                listaSenales = LecturaXML(ruta)
                 print(Fore.GREEN + "     -------------------------------")
                 print(Fore.GREEN + "   | Se cargó el archivo con éxito! |")
                 print(Fore.GREEN + "     -------------------------------\n")
@@ -32,7 +43,16 @@ def menu():
                 print(Fore.RED + "    ---------------------------------\n")
         elif opcion == "2":
             try:
-                print("         Procesar archivo                    ")
+                print(Fore.YELLOW +"\n         Procesando archivo...                    ")
+                #listaSenales.getListaConvertirABinario().imprimir()
+                #listaSenales.ordenardoDatosXMLsinprocesar()
+                #listaSenales.cargaArchivo()
+                #listaSenales.getSenal()
+                # no listaSenales.llenarListaAmplitudes()
+
+
+                print(Fore.GREEN + "    Se ha procesado el archivo "+ Fore.WHITE + ruta)
+                
             except:
                 print("   ------------------------------------------")
         
@@ -43,12 +63,12 @@ def menu():
                 print("   ------------------------------------------")
         
         elif opcion == "4":
-                print(Fore.WHITE +"           DATOS DEL ESTUDIANTE           ")
-                print(Fore.GREEN +"   Jennifer Yulissa Lourdes Taperio Manuel   ")
-                print(Fore.GREEN +"   202103763                                 ")
-                print(Fore.GREEN +"   Introduccion a la programacion y computacion seccion \"N\"")
-                print(Fore.GREEN +"   Ingenieria en ciencias y sistemas         ")
-                print(Fore.GREEN +"   Sexto semestre                            ")
+                print(Fore.WHITE +"\n             Datos del estudiante           ")
+                print(Fore.GREEN +"   > Jennifer Yulissa Lourdes Taperio Manuel   ")
+                print(Fore.GREEN +"   > 202103763                                 ")
+                print(Fore.GREEN +"   > Introduccion a la programacion y computacion seccion \"N\"")
+                print(Fore.GREEN +"   > Ingenieria en ciencias y sistemas         ")
+                print(Fore.GREEN +"   > Sexto semestre                            ")
 
         elif opcion == "5":
             try:

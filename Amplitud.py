@@ -9,8 +9,12 @@ class Amplitud():
     def getDato(self):
         return self.dato
     
-    def setAmplitud(self, amplitud):
-        self.amplitud = amplitud
+    #para pruebas
+    def print(self):
+        print(self.amplitud, self.dato)
+    
+    #def setAmplitud(self, amplitud):
+        #self.amplitud = amplitud
 
-    def setDato(self, dato):
-        self.dato = dato
+    #def setDato(self, dato):
+        #self.dato = dato
