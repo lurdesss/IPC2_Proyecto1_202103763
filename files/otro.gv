@@ -1,0 +1,83 @@
+digraph structs {
+	node [color=green fontname=Helvetica shape=egg style=filled]
+	0 [label=2]
+	1 [label=3]
+	0 -> 1
+	rankdir=TB
+	1 [label=3]
+	2 [label=0]
+	1 -> 2
+	rankdir=TB
+	2 [label=0]
+	3 [label=1]
+	2 -> 3
+	rankdir=TB
+	3 [label=1]
+	4 [label=2]
+	3 -> 4
+	rankdir=TB
+	4 [label=2]
+	5 [label=6]
+	4 -> 5
+	rankdir=TB
+	5 [label=6]
+	6 [label=3]
+	5 -> 6
+	rankdir=TB
+	6 [label=3]
+	7 [label=4]
+	6 -> 7
+	rankdir=TB
+	7 [label=4]
+	8 [label=0]
+	7 -> 8
+	rankdir=TB
+	8 [label=0]
+	9 [label=2]
+	8 -> 9
+	rankdir=TB
+	9 [label=2]
+	10 [label=3]
+	9 -> 10
+	rankdir=TB
+	10 [label=3]
+	11 [label=0]
+	10 -> 11
+	rankdir=TB
+	11 [label=0]
+	12 [label=0]
+	11 -> 12
+	rankdir=TB
+	12 [label=0]
+	13 [label=2]
+	12 -> 13
+	rankdir=TB
+	13 [label=2]
+	14 [label=3]
+	13 -> 14
+	rankdir=TB
+	14 [label=3]
+	15 [label=1]
+	14 -> 15
+	rankdir=TB
+	15 [label=1]
+	16 [label=1]
+	15 -> 16
+	rankdir=TB
+	16 [label=1]
+	17 [label=2]
+	16 -> 17
+	rankdir=TB
+	17 [label=2]
+	18 [label=3]
+	17 -> 18
+	rankdir=TB
+	18 [label=3]
+	19 [label=0]
+	18 -> 19
+	rankdir=TB
+	19 [label=0]
+	20 [label=0]
+	19 -> 20
+	rankdir=TB
+}

@@ -1,0 +1,74 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+<senalesReducidas>
+   <senal nombre="3" A="Prueba1">
+      <grupo g="1">
+         <tiempos>3 </tiempos>
+         <datosGrupo>
+            <dato A="1">3</dato>
+            <dato A="2">1</dato>
+            <dato A="3">2</dato>
+            <dato A="4">1</dato>
+         </datosGrupo>
+         </tiempos>
+      </grupo>
+      <grupo g="2">
+         <tiempos>4 </tiempos>
+         <datosGrupo>
+            <dato A="1">3</dato>
+            <dato A="2">1</dato>
+            <dato A="3">2</dato>
+            <dato A="4">1</dato>
+            <dato A="5">3</dato>
+            <dato A="6">1</dato>
+            <dato A="7">2</dato>
+            <dato A="8">1</dato>
+         </datosGrupo>
+         </tiempos>
+      </grupo>
+      <grupo g="3">
+         <tiempos>2 </tiempos>
+         <datosGrupo>
+            <dato A="1">3</dato>
+            <dato A="2">1</dato>
+            <dato A="3">2</dato>
+            <dato A="4">1</dato>
+            <dato A="5">3</dato>
+            <dato A="6">1</dato>
+            <dato A="7">2</dato>
+            <dato A="8">1</dato>
+            <dato A="9">3</dato>
+            <dato A="10">1</dato>
+            <dato A="11">2</dato>
+            <dato A="12">1</dato>
+         </datosGrupo>
+         </tiempos>
+      </grupo>
+      <grupo g="4">
+         <tiempos>4 </tiempos>
+         <datosGrupo>
+            <dato A="1">3</dato>
+            <dato A="2">1</dato>
+            <dato A="3">2</dato>
+            <dato A="4">1</dato>
+            <dato A="5">3</dato>
+            <dato A="6">1</dato>
+            <dato A="7">2</dato>
+            <dato A="8">1</dato>
+            <dato A="9">3</dato>
+            <dato A="10">1</dato>
+            <dato A="11">2</dato>
+            <dato A="12">1</dato>
+            <dato A="13">3</dato>
+            <dato A="14">1</dato>
+            <dato A="15">2</dato>
+            <dato A="16">1</dato>
+         </datosGrupo>
+         </tiempos>
+      </grupo>
+   <senal nombre="1" A="Senal3">
+   </senal>
+   <senal nombre="2" A="Prueba2">
+   </senal>
+   <senal nombre="1" A="Senal3">
+   </senal>
+</senalesReducidas>
